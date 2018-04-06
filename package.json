@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-immersion",
+  "version": "1.0.0",
+  "description": "Learning nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xeitodevs/nodejs-immersion.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "xeitodevs & devs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xeitodevs/nodejs-immersion/issues"
+  },
+  "homepage": "https://github.com/xeitodevs/nodejs-immersion#readme",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.3",
+    "heavy": "6.1.0"
+  }
+}
