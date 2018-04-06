@@ -4,7 +4,11 @@
   "description": "Learning nodejs",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "one-process": "node src/performance/app.js",
+    "cluster": "node src/performance/cluster.js",
+    "v8-profile": "rm isolate*.log && node --prof src/performance/app.js",
+    "v8-graph": "node --prof-process --preprocess -j isolate*.log | npx flamebearer"
   },
   "repository": {
     "type": "git",
@@ -21,6 +25,7 @@
   "homepage": "https://github.com/xeitodevs/nodejs-immersion#readme",
   "devDependencies": {
     "ava": "^0.25.0",
+    "nodemon": "^1.17.3",
     "standard": "^11.0.1"
   },
   "dependencies": {

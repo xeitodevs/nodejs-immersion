@@ -1,3 +1,5 @@
+isolate*.log
+flamegraph.html
 .idea
 # Logs
 logs
