@@ -1,7 +1,6 @@
 'use strict'
 
 const Heavy = require('heavy')
-const fs = require('fs')
 
 const heavy = new Heavy({
   sampleInterval: 1000
