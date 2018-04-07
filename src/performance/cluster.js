@@ -10,5 +10,5 @@ if (cluster.isMaster) {
     cluster.fork()
   }
 } else {
-  require('../app')
+  require('./app')
 }

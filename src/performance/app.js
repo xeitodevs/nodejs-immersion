@@ -1,7 +1,7 @@
 const express = require('express')
 const axios = require('axios')
 const app = express()
-const { startLoggingPerformance } = require('./performance/eventLoop')
+const { startLoggingPerformance } = require('./eventLoop')
 app.get('/cpu-bound', function (req, res) {
   for (let i = 0; i < 1e7; i++)
     res.send(`end task`)
