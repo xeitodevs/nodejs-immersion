@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Learning nodejs",
   "main": "index.js",
+  "engines": {
+    "node": ">=10"
+  },
   "scripts": {
     "test": "npm test",
     "one-process": "node src/performance/app.js",
